@@ -1,0 +1,10 @@
+secretGenerator:
+- name: mysql-pass
+  literals:
+          - password=sivanaik
+resources:
+  - efs.yml
+  - rbac.yml
+  - deploy-ghost.yml
+
+
