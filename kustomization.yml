@@ -3,7 +3,7 @@ kind: Kustomization
 secretGenerator:
   - name: mysql-pass
     literals:
-        - password=redhat
+        - password=<password>
 resources:
   - mysql-deployment.yaml
   - wordpress-deployment.yaml
